@@ -1,0 +1,21 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require esm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "cypress": "^13.12.0",
+    "esm": "^3.2.25",
+    "mocha": "^10.6.0"
+  },
+  "dependencies": {
+    "@cypress/xpath": "^2.0.3"
+  }
+}
